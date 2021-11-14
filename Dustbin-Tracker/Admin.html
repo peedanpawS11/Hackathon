@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Welcome Admin</title>
+		<link rel="stylesheet" href="style1.css">
+	</head>
+	<body>
+	 <form action="myFunc()" >
+		<div class="login-box">
+		<h1><center>Welcome Admin<center></h1>
+		<div class="radio">
+			<input type="radio" name="st" value="full">&nbsp;&nbsp;Full
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="st" value="semi">&nbsp;&nbsp;Semi
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="st" value="empty">&nbsp;&nbsp;Empty
+		</div>
+		<div class="textbox">
+			<label for="Dustbin">Choose a Dustbin ID:</label><br>
+
+			<select id="Dustbin">
+				<option value="" style="">Select your option</option>
+				<option value="did">Bin1001</option>
+				<option value="did">Bin1034</option>
+				<option value="did">Bin1076</option>
+				<option value="did">Bin1190</option>
+				<option value="did">Bin1197</option>
+				<option value="did">Bin1234</option>
+				<option value="did">Bin1346</option>
+				<option value="did">Bin1467</option>
+			</select>
+
+
+			
+			
+		</div>	
+		<br>
+		<div class="textbox">
+		
+			<label for="Staff">Choose a Staff ID:</label><br>
+
+			<select id="Staff">
+				<option value="">Select your option</option>
+				<option value="sid">S1001</option>
+				<option value="sid">S1034</option>
+				<option value="sid">S1076</option>
+				<option value="sid">S1190</option>
+				<option value="sid">S1197</option>
+				<option value="sid">S1234</option>
+				<option value="sid">S1346</option>
+				<option value="sid">S1467</option>
+			</select>
+			
+			
+			
+		</div>
+		
+		
+		<input class="btn" type="submit" name="Submit" value="Assign">
+		</div>
+	
+	</form>
+	<script>
+function myFunc() {
+  window.print(Assigned);
+}
+</script>
+</html>
